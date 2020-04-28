@@ -1,0 +1,13 @@
+Dobbiamo trovare un insieme di blackout tale che:
+	Il nerc è dato
+	la somma delle ore di blackout deve essere inferiore a quella data
+	la distanza tra i blackout deve essere infeiore al numero di anni dato (data inizio)
+	
+	---> Max numero persone coinvolte
+	
+Piano d'azione:
+	ottenere il sottinsieme di black out nel nerc stabilito
+	ordinare i bk per data di avvenimento
+	andare a vedere la data dell'ultimo black out e settare X anni prima come ultimo punto di partenza
+	per ogni anno, max le PerCoinv nel range fino a X anni dopo.
+	controllo ad ogni soluzione finale se sia migliore delle precedenti.

@@ -1,10 +1,12 @@
 package it.polito.tdp.poweroutages.model;
 
-public class Nerc {
+import java.util.*;
 
+public class Nerc {
 	
 	private int id;
 	private String value;
+	private List<PowerOutage> powerOutages = new LinkedList<PowerOutage>();
 
 	public Nerc(int id, String value) {
 		this.id = id;
